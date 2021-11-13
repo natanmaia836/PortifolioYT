@@ -12,6 +12,7 @@ document.querySelector("#prazo").addEventListener("change", function () {
      atualizarPreco()    
 })
 
+
 function atualizarPreco(){
      const qtde = document.querySelector("#qtde").value
      const temJS = document.querySelector("#js").checked
